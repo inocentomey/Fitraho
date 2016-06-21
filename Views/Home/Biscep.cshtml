@@ -156,9 +156,9 @@
                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
                                 @{
-                                    List<string> list = viewbag.biscep;
+                                    List<string> list = ViewBag.Biscep;
                                     <ul id="biscep" class="nav nav-pills nav-stacked">
-                                        @for (int i = 0; i < list.count; i++)
+                                        @for (int i = 0; i < list.Count; i++)
                                         {
                                             string name = list[i];
                                             string id = "id" + i;
